@@ -1,0 +1,11 @@
+DB : MySQL Workbench 8.0 CE
+
+create database car;
+use car;
+
+CREATE TABLE car (
+    id int NOT NULL  PRIMARY KEY,
+    brand varchar(50) NOT NULL,
+    name varchar(50),
+    price int
+);
